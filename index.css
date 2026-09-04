@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(50, 49, 49);
+    height: 90px;
+    padding: 0px 35px 0px 30px;
+}
+h1{
+    color: white;
+}
+nav a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    gap: 30px;
+    align-items:center ;
+}
+a:hover{
+    color: red;
+}
+img{
+    height:200%;
+}
