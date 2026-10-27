@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/9bc3aa5400.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!--header section start here-->
+        <header>
+    <img src="image/7-removebg-preview.png" alt="">
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="biteDeals.html">BiteDeals</a>
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>Login</a>
+    </nav>
+    </header> 
+    <!---start cart here--->
+    <section class="cart">
+        <h2 style="text-align: center;">Your cart</h2>
+        <table>
+            <thead>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="image/burger-card1 (3).png">
+                        <div>
+                            <h4>Cheese Buger</h4>
+                            <p>Juicy grilled burger</p>
+                        </div>
+                    </td>
+                    <td>₹199</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                        </div>
+                    </td>
+                    <td>₹199</td>
+                    <td><button class="remove">❌</button></td>
+                </tr>
+                <!--row 1-->
+                <tr>
+                    <td class="item">
+                        <img src="image/pizza-card2.png">
+                        <div>
+                            <h4>Capsicum Pizza</h4>
+                            <p>Loaded with cheese</p>
+                        </div>
+                    </td>
+                    <td>₹249</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                        </div>
+                    </td>
+                    <td>₹249</td>
+                    <td><button class="remove">❌</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="image/alfredo-card4.png">
+                        <div>
+                            <h4>Alfredo Pasta</h4>
+                            <p>Creamy white souce</p>
+                        </div>
+                    </td>
+                    <td>₹229</td>
+                    <td>
+                        <div class="qty-box">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+
+                        </div>
+                    </td>
+                    <td>₹229</td>
+                    <td><button class="remove">❌</button></td>
+                </tr>
+                <tr class="grand-total">
+                    <td colspan="3">Grand Total</td>
+                    <td>₹797 </td>
+                    <td><button>proceed</button></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+</html>
